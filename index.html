@@ -1,1 +1,78 @@
+ <!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Language" content="es">
+    <META name="Author" content="Alejandro Barroso">
+    <meta equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <title>TH Pol&iacute;meros :: Productos</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
+    <meta name="title" content="TH Pol&iacute;meros">
+    <meta name="description" content="TH Pol&iacute;meros empresa especializada en la fabricaci&oacute;n de GEL COAT, PASTAS CONCENTRADAS, DESMOLDEANTES" />
+    <meta name="keywords" content="gel coat , gelcoat , pastas colorantes , desmoldeantes ">
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+</head>
+<body>
+    <div class="body">
+        <header id="header">
+            <div class="logo-div">
+                <img class="logo-img" src="images/logo.png" alt="logo">
+                <a href="" class="links-logo">Pol&iacute;meros</a>
+            </div>
+
+            <div class="menu">
+                <a href="#" class="menu-h3" onclick="myFunction()">
+                    <h3>MENU</h3>
+                    <i class="fa fa-bars"></i>
+                  </a>
+                <nav id="nav" class="nav">
+                    <ul class="nav-links dropdown">
+                        <li><a href="" class="links">PRODUCTOS</a></li>
+                        <li><a href="" class="links">GEL COAT DECORACI&Oacute;N</a></li>
+                        <li><a href="" class="links">SANITIZED</a></li>
+                        <li><a href="" class="links">GALER&Iacute;A IM&Aacute;GENES</a></li>
+                        <li><a href="" class="links">APLICACI&Oacute;N EFECTOS DECORACI&Oacute;N</a></li>
+                        <li><a href="" class="links">KIT RESTAURACI&Oacute;N</a></li>
+                        <li><a href="" class="links">CONTROLES DE CALIDAD</a></li>
+                        <li><a href="" class="contact-link">CONTACTAR</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+        <section id="section" class="section1">
+            <div class="section-title">
+               <h3 class="title-p">Fabricamos: Gel Coats - Pastas Concentradas - Kit Restauraci&oacute;n - Desmoldeantes </h3>
+            </div>
+            <img src="images/thprinciapal.jpg" alt="Imagen principal" class="section1-img">
+        </section>
+        <section id="section" class="section2">
+            <div class="section-title">
+                <h3 class="title-p">V&iacute;deo Efectos Decoraci&oacute;n</h3>
+            </div>
+            <video class="section2-video" controls>
+                <source src="images/videoEfectosDecoracion.mp4" type="video/mp4">
+            </video>
+        </section>
+    </div>
+    <script>
+        function myFunction(){
+            var x = document.getElementById("nav");
+            if(x.className === "nav"){
+                x.className += "-responsive";
+            }else{
+                x.className = "nav";
+            }
+        }
+    </script>
+</body>
+
+</html>
+
 
